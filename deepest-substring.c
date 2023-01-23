@@ -2,6 +2,10 @@
 #include <assert.h>
 #include <string.h>
 
+//The deepest substring of a string containing text in nested parenthesis is the substring which
+//is enclosed in the maximum number of parenthesis. For example, the deepest substring of
+//"a+((b+c)+d)" is "b+c". In this question you will implement a function deepest_substring
+//that accepts a string containing nested parenthesis and computes its deepest substring.
 
 void deepest_substring(const char str[], char out[]);
 
